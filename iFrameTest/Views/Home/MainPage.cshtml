@@ -1,0 +1,15 @@
+﻿<div style="height:200px; width:100%;">
+    <h3>I am Main Page</h3>
+    <button id="button1">Click to Load Page 1</button>
+    <br />
+    <iframe id="page1frame" onload="resizeFrame" src="/home/page1"></iframe>
+</div>
+<script>
+    $("#page1frame").attr("src", "/home/page1");
+    $("button").click(function () {
+        $("#page1frame").attr("src", "/home/page1");
+    });
+    function resizeFrame(obj) {
+        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+</script>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iFrameTest", "iFrameTest\iFrameTest.csproj", "{B04A72F2-3E59-4654-9331-5D41BA33D901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B04A72F2-3E59-4654-9331-5D41BA33D901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04A72F2-3E59-4654-9331-5D41BA33D901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04A72F2-3E59-4654-9331-5D41BA33D901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04A72F2-3E59-4654-9331-5D41BA33D901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6909030F-A040-4ECB-B1D1-29919655E9AF}
+	EndGlobalSection
+EndGlobal
